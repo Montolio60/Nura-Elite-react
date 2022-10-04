@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Nura-Elite-react/static/css/main.c1387843.css",
+    "main.js": "/Nura-Elite-react/static/js/main.3d6760e7.js",
+    "static/media/Header__bg.png": "/Nura-Elite-react/static/media/Header__bg.df0665a7da520403c0b2.png",
+    "static/media/advantage-main.jpg": "/Nura-Elite-react/static/media/advantage-main.e41f828f4e5eabfe7da3.jpg",
+    "static/media/cottage1.png": "/Nura-Elite-react/static/media/cottage1.0b57023dbc6f898073aa.png",
+    "static/media/Map.png": "/Nura-Elite-react/static/media/Map.dbc34f9be726c44822ec.png",
+    "static/media/benefits1.png": "/Nura-Elite-react/static/media/benefits1.81a8b68ea7b3d7e88394.png",
+    "static/media/mm-group.jpg": "/Nura-Elite-react/static/media/mm-group.82f49cb0f092e2296b0f.jpg",
+    "static/media/location-map.png": "/Nura-Elite-react/static/media/location-map.c8cfef7830ead78a2c92.png",
+    "static/media/Rectangle 14.png": "/Nura-Elite-react/static/media/Rectangle 14.2d2e1e911db84c95676d.png",
+    "static/media/layout1.png": "/Nura-Elite-react/static/media/layout1.5df5fbda1570d4491fa6.png",
+    "static/media/Rectangle 12.png": "/Nura-Elite-react/static/media/Rectangle 12.649b1e57c1328fceb342.png",
+    "static/media/Rectangle 11.png": "/Nura-Elite-react/static/media/Rectangle 11.ff2e77869391b0834b70.png",
+    "static/media/Rectangle 13.png": "/Nura-Elite-react/static/media/Rectangle 13.f71ffad6b3919cbeb1ae.png",
+    "static/media/symbol 3.png": "/Nura-Elite-react/static/media/symbol 3.b7659dcfa75b3924a3cb.png",
+    "static/media/Rectangle 15.png": "/Nura-Elite-react/static/media/Rectangle 15.2c98b8c6900ee08c5eda.png",
+    "static/media/Rectangle 16.png": "/Nura-Elite-react/static/media/Rectangle 16.039efc424e9c8310099d.png",
+    "static/media/qr-code.png": "/Nura-Elite-react/static/media/qr-code.34f089c1b0c82348b3fb.png",
+    "index.html": "/Nura-Elite-react/index.html",
+    "main.c1387843.css.map": "/Nura-Elite-react/static/css/main.c1387843.css.map",
+    "main.3d6760e7.js.map": "/Nura-Elite-react/static/js/main.3d6760e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1387843.css",
+    "static/js/main.3d6760e7.js"
+  ]
+}
