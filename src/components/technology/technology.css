@@ -1,0 +1,119 @@
+.technology__container{
+   padding: 127px 10px 80px 10px;
+
+}
+.technology__title{
+   text-align: center;
+   color: #333;
+   font-weight: 700;
+   font-size: 2.66rem;
+   line-height: 2.9rem;
+   position: relative;
+}
+.technology__title::after{
+   content: 'Технология';
+   position: absolute;
+   font-weight: 700;
+   font-size: 12rem;
+   line-height: 13rem;
+   width: 100%;
+   top: -200%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   z-index: -20;
+   opacity: 0.05;
+
+}
+.technology__content{
+   padding-top: 42px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 100px;
+   grid-auto-columns: 500px;
+}
+.technology__content-block1, .technology__content-block2{
+   display: flex;
+   flex-direction: column;
+   gap: 83px;
+}
+.technology__content-block2{
+   gap: 88px;
+   padding-top: 108px;
+}
+.technology__item h4{
+   color: #333;
+   font-weight: 700;
+   font-size: 1.1rem;
+   line-height: 1.2rem;
+   margin: 32px 0 12px 0;
+}
+.technology__item p{
+   color: #333;
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 110%;
+}
+.technology__image img{
+   width: 100%;
+}
+.tec1{
+   max-width: 188px;
+   max-height: 201px;
+}
+.tec2{
+   max-width: 230px;
+   max-height: 237px;
+}
+.tec3{
+   max-width: 216px;
+   max-height: 285px;
+}
+.tec4, .tec6{
+   max-width: 339px;
+   max-height: 168px;
+}
+.tec5{
+   max-width: 322px;
+   max-height: 144px;
+}
+@media screen and (max-width: 900px) {
+   .technology__content{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .technology__content-block2{
+      gap: 88px;
+      padding-top: 0;
+   }
+   .technology__item{
+      display: flex;
+      gap: 20px;
+   }
+   .technology__image {
+      flex: 0 0 30%;
+   }
+   .technology__item h4{
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+      margin:0 0 22px 0;
+   }
+   .technology__item p{
+      font-size: 1.1rem;
+      line-height: 120%;
+   }
+}
+@media screen and (max-width: 700px) {
+   
+   .technology__item{
+      display: flex;
+      flex-direction: column;
+   }
+   .technology__title::after{
+      display: none;
+   
+   }
+   .technology__container{
+      padding: 20px 10px 80px 10px;
+   
+   }
+}

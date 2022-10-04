@@ -1,0 +1,67 @@
+.payment__container{
+   padding: 105px 10px 0 10px;
+}
+.payment__title{
+   text-align: center;
+   color: #333;
+   font-weight: 700;
+   font-size: 2.66rem;
+   line-height: 2.9rem;
+   margin-top: 25px;
+   margin-bottom: 60px;
+   position: relative;
+}
+.payment__title::after{
+   content: 'Оплата';
+   position: absolute;
+   top: -250%;
+   left: 50%;
+   transform: translate(-50%,0);
+   font-weight: 700;
+   font-size: 14.4rem;
+   line-height: 15.6rem;
+   z-index: -200;
+   opacity: 0.05;
+}
+.payment__content{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+.payment__item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 105px;
+}
+.payment__item h5{
+   font-weight: 700;
+   font-size: 0.9rem;
+   line-height: 110%;
+   text-align: center;  
+   color: #333333;
+   max-width: 210px;
+}
+.payment__image{
+   max-width: 80px;
+   margin-bottom: 18px;
+}
+.payment__item:first-child > div{
+   max-width: 125px;
+}
+@media screen and (max-width: 900px) {
+   .payment__container{
+      padding: 55px 10px;
+   }
+   .payment__content{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .payment__item{
+      
+      margin-bottom: 0;
+   }
+   .payment__title::after{
+     display: none;
+   }
+}

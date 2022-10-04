@@ -1,0 +1,32 @@
+.footer__list{
+   display: flex;
+   gap: 60px;
+}
+.footer__menu{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 28px;
+}
+.footer__list li a {
+   color: #333;
+   font-weight: 300;
+   font-size: 1.2rem;
+   line-height: 110%;
+}
+.footer__list li a:hover{
+border-bottom: 4px solid #DBA069;
+}
+@media screen and (max-width: 758px) {
+   .footer__list{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+   }
+   .footer__list li a {
+      color: #333;
+      font-weight: 300;
+      font-size: 0.8rem;
+      line-height: 110%;
+   }
+}

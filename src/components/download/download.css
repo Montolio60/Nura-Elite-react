@@ -1,0 +1,80 @@
+.download{
+   padding: 0 10px;
+}
+.download__container{
+   border: 8px solid #842231;
+   border-radius: 8px;
+   padding: 70px 0;
+}
+.download__title{
+   text-align: center;
+   font-weight: 700;
+   font-size: 2rem;
+   line-height: 133%;
+   color: #2E363E;
+   margin-bottom: 12px;
+}
+.download__subtitle{
+   font-weight: 400;
+   font-size: 1.16rem;
+   line-height: 143%;
+   text-align: center;
+   letter-spacing: -0.2px;
+   color: #2E363E;
+   margin-bottom: 36px;
+}
+.download__form{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.download__form input, .download__form button{
+   width: 280px;
+   height: 85px;
+   border-radius: 8px;
+}
+.download__form input{
+   background: #d9e5f3;
+   padding-left: 58px;
+}
+.download__form button{
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 152%;
+   color: #fff;
+   background: #842231;
+}
+.download__form button:hover{
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(233, 60, 60, 0.7);
+}
+.download__form-input{
+   position: relative;
+}
+.download__icon{
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  bottom: 5px;
+  left: 22px;
+  margin: auto 0;
+  z-index: 1;
+  color: #9e9999;
+}
+.phone{
+   width: 14px;
+   height: 14px;
+   left: 31px;
+}
+@media screen and (max-width: 900px) {
+   .download__form{
+      flex-direction: column;
+      align-items: center;
+   }
+   .download__container{
+      border: 4px solid #842231;
+      border-radius: 8px;
+      padding: 25px 0;
+   }
+}

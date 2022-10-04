@@ -1,0 +1,116 @@
+.benefits{
+   padding: 114px 10px 66px 10px;
+}
+.benefits__content{
+   display: grid;
+   grid-template-columns: 35% 65%;
+   gap: 40px;
+}
+.benefits__text{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 40px 5px;
+   padding-top: 86px;
+}
+.benefits__text p{
+   max-width: 260px;
+}
+.benefits__text p:last-child{
+   max-width: 350px;
+}
+.benefits__title{
+   color: #333;
+   font-weight: 700;
+   font-size: 2.66rem;
+   line-height: 2.9rem;
+   margin-bottom: 100px;
+   position: relative;
+}
+.benefits__title::after{
+   position: absolute;
+   content: 'ПОЧЕМУ NURA ELITE';
+   top: 0;
+   left: 0;
+   opacity: 0.05;
+   font-size: 11.8rem;
+   line-height: 12.8rem;
+   white-space: nowrap;
+   z-index: -20;
+   transform: translate(-5%, -40%);
+}
+.benefits__image-wrap{
+   max-width: 4523px;
+   height: auto;
+   position: relative;
+   display: inline-block;
+}
+.benefits__image-wrap::after{
+   position: absolute;
+   content: '';
+   background-color: #842231;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transform: translate(-42px, 34px);
+   z-index: -20;
+}
+
+.benefit__icon{
+   width: 56px;
+   height: 56px;
+}
+.benefit h4{
+   font-weight: 700;
+   font-size: 1.1rem;
+   line-height: 1.2rem;
+   color: #333;
+   margin-bottom: 12px;
+}
+.benefit p{
+   color: #333;
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 110%;
+}
+.benefit{
+   display: flex;
+   gap: 15px;
+}
+@media screen and (max-width: 1240px) {
+   .benefit{
+     flex-direction: column;
+   }
+   .benefits__text{
+      padding: 0;
+   }
+
+}
+@media screen and (max-width: 900px) {
+.benefits__content{
+   grid-template-columns: 1fr;
+}
+.benefits__image{
+   margin: 0 auto;
+}
+.benefit{
+   flex-direction: row;
+   padding-top: 20px;
+ }
+}
+@media screen and (max-width: 700px) {
+   .benefits__title{
+      margin-bottom: 30px;
+   }
+   .benefit{
+      flex-direction: column;
+      padding-left: 30px;
+    }
+    .benefits__text{
+     grid-template-columns: 1fr;
+     gap: 10px;
+   }
+   .benefits{
+      padding: 64px 10px 36px 10px;
+   }
+   }

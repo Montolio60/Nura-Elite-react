@@ -1,0 +1,81 @@
+.advantages__container{
+   max-width: 1114px;
+   background: #F9F4F4;
+   padding: 60px 0 30px 24%;
+   position: relative;
+}
+.advantages__container::after{
+   position: absolute;
+   content: url(../../assets/symbol\ 3.png);
+   bottom: 0;
+   left: 0;
+}
+.advantages__title{
+   color: #333;
+   font-weight: 700;
+   font-size: 2.66rem;
+   line-height: 2.9rem;
+   margin-bottom: 40px;
+   max-width: 624px;
+}
+.advantage{
+   display: flex;
+   flex-wrap: wrap;
+}
+.advantage__main-img {
+   position: relative;
+   margin-bottom: 40px;
+   z-index: 2;
+   max-width: 900px;
+}
+.advantage__item p {
+   color: #333;
+   font-weight: 300;
+   font-size: 1.1rem;
+   line-height: 110%;
+   max-width: 300px;
+   padding-right: 40px;
+}
+.advantage__item:nth-child(even) p{
+   padding-right: 0;
+}
+.advantage__item:nth-child(3) p{
+   max-width: 330px;
+}
+.advantage__item:last-child p {
+   max-width: 90%;
+}
+.advantage__item{
+   flex: 1 1 50%;
+   display: flex;
+   gap: 15px;
+   margin-bottom: 50px;
+}
+
+.advantage__icon{
+   flex-shrink: 0;
+   width: 56px;
+   height: 56px;
+}
+@media screen and (max-width: 1040px) {
+   .advantages__container{
+      padding: 60px 2% 30px 2%;
+   }
+}
+@media screen and (min-width: 1540px) {
+   .advantages__container{
+      max-width: 75%;
+   }
+ 
+}
+@media screen and (max-width: 650px) {
+       .advantage__item{
+         flex-direction: column;
+       }
+}
+@media screen and (max-width: 500px) {
+   .advantage__item{
+     flex-direction: row;
+     flex: 1 1 100%;
+   }
+}

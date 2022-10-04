@@ -1,0 +1,74 @@
+.cottages{
+   background: rgba(132, 34, 49, 0.05);
+   padding: 39px 0 74px 0;
+}
+.cottages__content{
+   display: flex;
+   padding: 0 70px;
+}
+.cottages__title{
+   color: #333;
+   font-weight: 700;
+   font-size: 2.66rem;
+   line-height: 2.9rem;
+   max-width: 1180px;
+   margin: 0 auto 28px auto;
+}
+.cottages__image{
+   max-width: 692px;
+   max-height: 414px;
+}
+.cottages__layout{
+   display: flex;
+   flex-direction: column;
+}
+.cottages__layout h4 {
+   padding-left: 68px;
+   margin-bottom: 10px;
+   color: #333;
+   font-weight: 700;
+   font-size: 1.77rem;
+   line-height: 140%;
+}
+.cottages__layout span{
+   position: relative;
+}
+.cottages__layout span::after{
+   content: '2';
+   position: absolute;
+   transform: translate(100%, -20%);
+   top: 0;
+   right: 0;
+   font-size: 1.1rem;
+}
+.swiper-button-next,.swiper-button-prev {
+   background: #842231;
+   width: 50px !important;
+   height: 50px !important;
+   border-radius: 50%;
+}
+.swiper-button-next::after {
+   content: url(../../assets/down-arrow\ 1.png) !important;
+   transform: translate(0, -10%);
+}
+.swiper-button-prev::after {
+   content: url(../../assets/down-arrow\ 2.png) !important;
+   transform: translate(0, -10%) ;
+
+}
+@media screen and (max-width: 900px) {
+   .cottages__content{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .cottages__image{
+      
+   }
+   .cottages__layout h4{
+      text-align: center;
+      padding-left: 0;
+   }
+   .cottages__layout img{
+      transform: rotate(90deg);
+   }
+}
